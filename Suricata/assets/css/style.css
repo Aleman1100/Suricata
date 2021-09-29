@@ -1,0 +1,110 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background-color: #E83E8C;
+    height: 75px;
+    margin-bottom: 41px;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    background-color: #E83E8C;
+    color: #fff;
+} 
+
+.suri-logo {
+    width: 132px;
+    height: 53px;
+}
+
+.suri-titulo {
+    width: 197px;
+    height: 96px;
+    color: #707070;
+    font-size: 35px;
+    letter-spacing: 0px;
+    text-align: center;
+    line-height: 47px;
+    margin-bottom: 29px;
+}
+
+.card {
+    margin-bottom: 50px;
+}    
+
+.card-title {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.suri-pagos {
+    display: none;
+    height: 170px;
+    font-size: 40px;
+    background-color: #17A2B8;
+    color: #fff;
+    line-height: 55px; 
+}
+
+h2 {
+    width: 350px;
+    height: 55px;
+    margin-left: 120px;
+}
+
+.fab {
+    margin-right: 28px;
+}
+
+footer {
+    background-color: #E83E8C;
+    height: 184px;
+    display: flex;
+    align-items: center;
+}
+
+.suri-footer {
+    width: 36px;
+    height: 67px;   
+}
+
+/* Breakpoints */
+
+@media (min-width: 992px) {
+    .navbar {
+        margin-bottom: 64px;
+    }
+
+    .suri-titulo {
+        width: 593px;
+        height: 82px;
+        font-size: 60px;
+        line-height: 82px;
+        margin-bottom: 77px;
+    }
+
+    .card {
+        margin-bottom: 64px;
+    }
+
+    .card-title {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .suri-pagos {
+        display: flex;
+        height: 170px;
+        font-size: 40px;
+        background-color: #17A2B8;
+        color: #fff;
+        line-height: 55px; 
+    }
+    
+    .suri-footer {
+        width: 53px;
+        height: 100px;
+        display: flex;
+    }
+}
